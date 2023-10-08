@@ -1,0 +1,114 @@
+        
+        body {
+          font-family: 'Roboto', sans-serif;
+          margin: 0;
+          padding: 0;
+          background-image: url('./h2.jpg'); 
+          background-size: cover; 
+          background-repeat: no-repeat; 
+          display: flex; 
+          justify-content: center; 
+          align-items: center; 
+          height: 100vh; 
+      }
+
+      h1 {
+        font-size: 94px;
+        margin: 0 auto;
+      }
+
+      h3 {
+        margin: 15px 0 15px 0;
+        font-size: 34px;
+        font-family: 'Press Start 2P', cursive;
+        color: #ffc600;
+      }
+
+      h5 {
+        max-width: 250px;
+        margin: 0 auto;
+      }
+
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+
+      img {
+        width: 50px;
+      }
+
+     
+      .content {
+          text-align: center;
+          padding: 20px;
+          color: white; 
+          background-color: rgba(0, 0, 0, 0); 
+      }
+
+      .social {
+        display: flex;
+        justify-content: space-around;
+        max-width: 300px;
+        margin: 50px auto;
+      }
+
+
+      @media (max-width: 768px) {
+
+        h1 {
+        font-size: 48px;
+        margin: 0 auto;
+      }
+
+        h3 {
+          font-size: 24px;
+        }
+
+    }
+
+
+
+    /* Pulse Button  */
+    .pulsse {
+      display: block;  
+      width: 48px;  
+      height: 48px;  
+      border-radius: 50%;  
+      background: #ffffff;  
+      cursor: pointer;  
+      box-shadow: 0 0 0 rgba(204,169,44, 0.4);   
+      animation: pullse 2s infinite;
+    }
+
+    .pulsse:hover {
+      animation: none;
+    }
+
+    @keyframes pullse {
+
+      0% {
+        box-shadow: 0 0 0 0 rgba(3, 155, 229, 0.4);
+      }
+
+      40% {
+        box-shadow: 0 0 0 20px rgba(3, 155, 229, 0);
+      }
+
+      100% {
+        box-shadow: 0 0 0 0 rgba(3, 155, 229, 0);
+      }
+
+    }
+
+
+
+  
+.logo {
+  width: 400px;
+  margin-bottom: 50px;
+}
+
+
+    
