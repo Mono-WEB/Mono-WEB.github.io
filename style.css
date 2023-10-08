@@ -4,7 +4,7 @@
           margin: 0;
           padding: 0;
           background-image: url('./h2.jpg'); 
-          background-size: cover; 
+          background-size: contain; 
           background-repeat: no-repeat; 
           display: flex; 
           justify-content: center; 
