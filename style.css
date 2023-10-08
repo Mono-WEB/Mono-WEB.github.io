@@ -50,7 +50,7 @@
       .social {
         display: flex;
         justify-content: space-around;
-        max-width: 300px;
+        max-width: 220px;
         margin: 50px auto;
       }
 
